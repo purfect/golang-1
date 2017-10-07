@@ -1,7 +1,7 @@
 # Eine Forb-Bombe geschrieben in GO
 
 >Eine Forkbomb, auch Rabbit genannt, ist ein Programm, dessen einziger Zweck es ist, rekursiv Kopien seiner selbst zu starten, alle verfügbaren Systemressourcen zu verbrauchen und so das System zu blockieren. 
-siehe: (https://de.wikipedia.org/wiki/Forkbomb "https://de.wikipedia.org/wiki/Forkbomb")
+siehe: https://de.wikipedia.org/wiki/Forkbomb
 
 
 
