@@ -25,5 +25,6 @@ func main() {
 		fmt.Printf("MD5-Hash:\t%x\n\n", v)
 
 	}
-
+    fmt.Println("The size of an MD5 checksum in bytes: ", md5.Size)
+    fmt.Println("The blocksize of MD5 in bytes: ", md5.BlockSize)
 }
