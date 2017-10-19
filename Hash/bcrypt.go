@@ -1,3 +1,4 @@
+// eigentlich eine Verschlüsselung
 package main
 
 import (
