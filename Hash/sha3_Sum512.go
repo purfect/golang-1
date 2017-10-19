@@ -21,8 +21,8 @@ func main() {
 		f2.plaintext: sha3.Sum512([]byte(f2.plaintext)),
 	}
 	for k, v := range hashes {
-		fmt.Printf("k:\t%s\n", k)
-		fmt.Printf("v:\t%x\n", v)
+		fmt.Printf("\nPlaintext:\t%s\n", k)
+		fmt.Printf("Sha3_Sum512:\t%x\n\n", v)
 
 	}
 }
