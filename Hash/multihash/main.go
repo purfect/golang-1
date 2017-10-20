@@ -3,12 +3,20 @@ package main
 import (
 	"crypto/md5"
 	"fmt"
+	"os"
+	"time"
 
+	"github.com/gernest/wow"
+	"github.com/gernest/wow/spin"
 	"github.com/jzelinskie/whirlpool"
 	"golang.org/x/crypto/sha3"
 )
 
 func main() {
+	w := wow.New(os.Stdout, spin.Get(spin.GrowHorizontal), "Hashing...")
+	w.Start()
+	time.Sleep(2 * time.Second)
+	fmt.Println()
 	s := "Passwort123"
 	fmt.Printf("Plain:\t\t%s\n", s)
 	fmt.Printf("MD5:\t\t%x\n", convert2md5(s))
