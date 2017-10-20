@@ -12,5 +12,8 @@ func main() {
 	fmt.Println("-o ", *minusO)
 	fmt.Println("-C ", *minusC)
 
+    for index, val := range flag.Args() {
+        fmt.Println(index, ": ", val)
+    }
 
 }
