@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/base64"
 	"fmt"
+	"os"
 )
 
 func main() {
@@ -15,7 +16,8 @@ func main() {
 	fmt.Println("Base64: ", str)
 	data, err := base64.StdEncoding.DecodeString(str)
 	if err != nil {
-		fmt.Println("Error:", err)
+		fmt.Println("Error: ", err)
+		os.Exit(1)
 
 	}
 	fmt.Printf("Plain:\t%s\n", data)
