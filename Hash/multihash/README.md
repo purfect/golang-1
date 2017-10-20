@@ -9,4 +9,4 @@ Hier werden Funktionen erstellt um Strings zu hashen
 
 
 ## Demo
-![Demo](/images/logo.png)
+![Demo](https://github.com/techgoat-net/golang/blob/master/Hash/multihash/demo.gif)
