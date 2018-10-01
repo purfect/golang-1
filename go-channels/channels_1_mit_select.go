@@ -40,5 +40,4 @@ func sende(e, o, q chan<- int) {
 	q <- 0   //wenn fertig: quit
 	close(e) // schließen der Channel, da
 	close(o) // Channel blocken
-
 }
