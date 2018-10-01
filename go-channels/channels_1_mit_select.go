@@ -14,7 +14,6 @@ func main() {
 	// Funktion: empfangen
 	empfange(gerade, ungerade, quit)
 }
-
 // Definition der Funktionen
 func empfange(e, o, q <-chan int) {
 	for {
